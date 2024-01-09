@@ -1,0 +1,5 @@
+"0","levgdp_base +"
+"0","  geom_point(aes(GDP, `Life Expectency`, colour = factor(Continent), size = Population)) +"
+"0","  scale_x_continuous(limits = c(0, 150000), labels = dollar_format(prefix = ""$"")) +"
+"0","  scale_size(range = c(2,15), guide = ""none"") +"
+"0","  guides(colour = guide_legend(override.aes = list(size=10)))"

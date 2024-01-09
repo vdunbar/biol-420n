@@ -1,0 +1,8 @@
+"0","levgdp_base <- ggplot (levgdp_2015) +"
+"0","  labs(x = ""GDP"", y = ""Life Expectency"", colour = ""Continent"") +"
+"0","  scale_color_viridis_d()"
+"0",""
+"0",""
+"0","levgdp_base +"
+"0","  geom_point(aes(GDP, `Life Expectency`), size = 5) +"
+"0","  scale_x_continuous(limits = c(0, 150000), labels = scales::dollar_format(prefix = ""$""))"

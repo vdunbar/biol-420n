@@ -1,0 +1,2 @@
+"0","(climate_graph + climate_graph_scale) / climate_graph +"
+"0","  plot_layout(guides = 'collect')"
