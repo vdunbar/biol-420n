@@ -1,3 +1,23 @@
+/* slides */
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* tables */
+
+.visualPerception table {
+  width: 70%;
+  font-size: 150%;
+  text-align: center;
+}
+
+.visualPerception table tr td {
+  border: 4px solid #ffffff;
+}
+
 /* plotted images */
 
   img {
@@ -16,42 +36,47 @@
   .small img {
     width: 50%;
   }
+  
+  .leaflet {
+    width: 100% !important;
+    height: 100% !important;
+  }
 
-/* Other images */
+/* Other images 
 
   .noheader img{
     margin-top: 150px;
   }
-  
-  /* tube map */
+  */
+  /* tube map 
   
   .tm img {
     margin-top: 150px;
     width: 1000px;
   }
-  
-  /* resources */
+  */
+  /* resources 
   
   .resources table {
     margin: auto;
     font-size: 200%;
     line-height: 2em;
   }
-  
+  */
 /* Text */
 
-  /* General */
+  /* General 
   
     .centre {
       text-align: center;
     }
-    
+    */
     .tinyText {
       font-size: 40%;
     }
 
     .grey {
-      color: #dddddd;
+      color: #dddddd !important;
     }
     
     .red {
@@ -124,12 +149,30 @@
       margin-left: 20%;
       margin-right: 20%;
     }
-    .largeText p {
+    .largeText p, .activity p {
       font-size: 150%;
       line-height: 1.5em;
       text-align: center;
       margin-left: 20%;
       margin-right: 20%;
+    }
+    
+    .largeText table {
+      margin: 200px auto auto auto;
+      font-size: 150%;
+    }
+    
+    .largeText table tr td {
+      padding: 30px;
+    }
+    
+    .activity table {
+      margin: 50px auto auto auto;
+      font-size: 150%;
+    }
+    
+    .activity table tr td {
+      padding: 30px;
     }
   
   /* Lists */
@@ -160,9 +203,11 @@
     
     .citation {
       text-align: center;
-      padding-top: 50px;
+      padding-top: 40px;
       display: inherit;
-      font-size: 80%;
+      font-size: 60%;
+      line-height: 1.5em;
+      color: #888888;
     }
       
 /* river frequency table */
